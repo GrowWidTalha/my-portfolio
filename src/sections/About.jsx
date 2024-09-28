@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Globe from "react-globe.gl";
 import Button from "../components/Button";
 
@@ -23,7 +23,7 @@ const About = () => {
               className="w-full sm:h-[276px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">Hi, I'm Talha</p>
+              <p className="grid-headtext">Hi, I&apos;m Talha</p>
               <p className="grid-subtext">
                 With 1.5 years of experience, I have honed my skills in frontend
                 and backend development, with focus on animated 3d websites.
@@ -89,7 +89,7 @@ const About = () => {
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 I love solving problems and building things through code. Coding
-                isn't just my profession - it is my passion.
+                isn&apos;t just my profession - it is my passion.
               </p>
             </div>
           </div>
