@@ -137,7 +137,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="contact">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <div className="contact-container w-full max-w-3xl">
           <h3 className="head-text mb-4">Let&apos;s talk</h3>
