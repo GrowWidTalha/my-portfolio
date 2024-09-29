@@ -114,6 +114,7 @@ export default function Contact() {
             addLine("Message sent successfully! Thank you for contacting us.");
           } catch (error) {
             addLine("Something went wrong. Please try again.");
+            console.log(error)
           } finally {
             setIsLoading(false);
             setStep(-1); // Reset to initial state
@@ -138,14 +139,14 @@ export default function Contact() {
 
   return (
     <section className="c-space my-20" id="contact">
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <div className="contact-container w-full max-w-3xl">
-          <h3 className="head-text mb-4">Let&apos;s talk</h3>
-          <p className="text-lg text-white-600 mb-6">
-            Whether you&apos;re looking to build a new website, improve your
-            existing platform, or bring a unique project to life, I&apos;m here
-            to help.
-          </p>
+    <div className="relative min-h-screen flex items-center justify-center flex-col">
+
+      <div >
+        <h3 className="head-text">Let&apos;s talk</h3>
+        <p className="text-lg text-white-600 mt-3">
+          Whether you&apos;re looking to build a new website, improve your existing platform, or bring a unique project to
+          life, I&apos;m here to help.
+        </p>
           <div className="terminal-wrapper mt-10">
             <Terminal
               name="Contact Terminal"
