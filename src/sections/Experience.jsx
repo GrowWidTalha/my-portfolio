@@ -14,9 +14,9 @@ const Experience = () => {
         <div className="work-container">
           <div className="work-canvas">
             <Canvas>
-              <ambientLight intensity={7} />
+              <ambientLight intensity={3} />
               <spotLight angle={0.16} penumbra={1} position={[10, 10, 10]} />
-              <directionalLight position={[10, 10, 10]} intensity={1} />
+              <directionalLight position={[10, 10, 10]} intensity={0.5} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
               <Suspense fallback={<CanvasLoader />}>
                 <Developer
