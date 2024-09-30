@@ -7,33 +7,27 @@ const Footer = () => {
         <p>Privacy Policy</p>
       </div>
       <div className="flex gap-3">
-        <div className="social-icon">
-          <a href="https://github.com/growwidtalha">
+          <a href="https://github.com/growwidtalha" className="social-icon">
             <img
               src="/assets/github.svg"
               alt="github"
               className="w-1/2 h-1/2"
             />
           </a>
-        </div>
-        <div className="social-icon">
-          <a href="https://linkedin.com/in/growwithtalha-webdeveloper">
+          <a className="social-icon" href="https://linkedin.com/in/growwithtalha-webdeveloper">
             <img
               src="/assets/linkedin.svg"
               alt="github"
               className="w-1/2 h-1/2"
             />
           </a>
-        </div>
-        <div className="social-icon">
-          <a href="https://x.com/GrowWith_Talha">
+          <a href="https://x.com/GrowWith_Talha" className="social-icons">
             <img
               src="/assets/twitter.svg"
               alt="github"
               className="w-1/2 h-1/2"
             />
           </a>
-        </div>
       </div>
       <p className="text-white-500">© 2024 Talha. All rights reserved.</p>
     </section>
