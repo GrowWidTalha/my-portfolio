@@ -3,6 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+::selection {
+    background: transparent !important;
+    color: inherit !important;
+  }
+
+  img::selection {
+    background: transparent !important;
+  }
 
 * {
   scroll-behavior: smooth;
