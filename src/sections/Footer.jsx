@@ -21,7 +21,7 @@ const Footer = () => {
               className="w-1/2 h-1/2"
             />
           </a>
-          <a href="https://x.com/GrowWith_Talha" className="social-icons">
+          <a href="https://x.com/GrowWith_Talha" className="social-icon">
             <img
               src="/assets/twitter.svg"
               alt="github"
