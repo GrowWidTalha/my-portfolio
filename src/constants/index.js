@@ -137,7 +137,7 @@ export const myProjects = [
     desc: "This is a figma clone with real-time features by leveraging the power of Liveblocks.",
     subdesc:
       "A real-time design collaboration tool inspired by Figma, built with advanced real-time features to allow multiple designers to work together simultaneously.",
-    href: "#",
+    href: "https://figma-clone-growwithtalha.vercel.app/",
     logo: "/assets/figma.svg",
     texture: "/textures/project/project3.mp4",
     logoStyle: {
@@ -178,9 +178,9 @@ export const myProjects = [
   },
   {
     title: "D-N-D Form Builder",
-    desc: 'Designed and built a drag-and-drop form builder mobile application named "D-N-D Form Builder," simplifying the process of creating forms.',
+    desc: 'Designed and built a drag-and-drop form builder web application named "D-N-D Form Builder," simplifying the process of creating forms',
     subdesc:
-      "This mobile application allows users to easily create complex forms with a drag-and-drop interface, designed for ease of use and flexibility.",
+      "This web application allows users to easily create complex forms with a drag-and-drop interface, designed for ease of use and flexibility.",
     href: "https://dnd-form-builder-ten.vercel.app/",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
@@ -224,7 +224,7 @@ export const myProjects = [
     subdesc:
       "An event management platform built with Next.js and modern web technologies to help users organize and attend events seamlessly.",
     logo: "/assets/evently-logo.jpg",
-    href: "#",
+    href: "https://evently-inky-gamma.vercel.app/",
 
     texture: "/textures/project/project5.mp4",
     logoStyle: {
